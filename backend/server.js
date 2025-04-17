@@ -12,7 +12,7 @@ import path from "path";
 
 const app = express()
 
-
+const __dirname = path.resolve()
 const PORT = process.env.PORT || 2005
 // const __dirname = path.resolve()
 dotenv.config()
